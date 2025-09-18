@@ -1,0 +1,12 @@
+body {
+    background: #1F2A32;
+    color: #FAFAF5;
+    font-family: 'Roboto', sans-serif; /* прямой - без засечек*/
+    font-weight: 300; /* шрифт стал тоньше*/
+}
+
+.title-1 {
+    font-family: 'bebasneue', sans-serif;
+    font-weight: 700;
+    color: #FFD479;
+}
