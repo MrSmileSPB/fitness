@@ -1,12 +1,33 @@
+:root {
+    --accent: #FFD479;
+    --font-base: 'Roboto', sans-serif;
+    --font-accent: 'bebasneue', sans-serif;
+
+}
+
+
 body {
     background: #1F2A32;
     color: #FAFAF5;
-    font-family: 'Roboto', sans-serif; /* прямой - без засечек*/
+    font-family: var(--font-base); /* прямой - без засечек*/
     font-weight: 300; /* шрифт стал тоньше*/
 }
 
+a {
+    color: #FAFAF5;
+    text-decoration: underline;
+}
+
 .title-1 {
-    font-family: 'bebasneue', sans-serif;
+    font-family: var(--font-accent);
     font-weight: 700;
-    color: #FFD479;
+    color: var(--accent);
+    font-size: 96px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    width: 100%;
 }
