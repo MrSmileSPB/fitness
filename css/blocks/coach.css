@@ -1,0 +1,50 @@
+.coach {
+   padding: 165px 135px 60px 143px;
+}
+
+.coach__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 253px;
+}
+
+.coach__title {
+    text-align: center;
+}
+
+.coach__text {
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.coach__gallery {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "one"
+    "two";
+}
+
+.coach__gallery-row {
+    
+}
+
+.coach__gallery-row--one {
+    grid-area: one;
+}
+
+.coach__gallery-row--two {
+    grid-area: two;
+}
+
+.coach__gallery-item {
+
+}
+
+.coach__gallery-img {
+
+}
