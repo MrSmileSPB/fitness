@@ -1,0 +1,197 @@
+.coach {
+   padding: 150px 135px 60px 128px;
+}
+
+.coach__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    height: 253px;
+    margin: 0px 181px 124px;
+}
+
+.coach__title {
+    text-align: center;
+}
+
+.coach__text {
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.coach__gallery {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "one"
+    "two";
+    row-gap: 35px;
+}
+
+.coach__gallery-row {
+    display: flex;
+    gap: 30px;
+}
+
+.coach__gallery-row--one {
+    grid-area: one;
+}
+
+.coach__gallery-row--two {
+    grid-area: two;
+}
+
+.coach__gallery-item {
+    display: flex;
+    width: 268px;
+    max-height: 400px;
+    height: 100%;
+}
+
+.coach__name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 20px;
+    opacity: 100%;
+    font-family: var(--font-accent);
+    font-weight: 700;
+    font-size: 42px;
+    letter-spacing: 0px;
+}
+
+.coach__gallery-item--1 {
+    grid-area: item1;
+    position: relative;
+}
+
+.coach__gallery-item--2 {
+    grid-area: item2;
+}
+
+.coach__gallery-item--3 {
+    grid-area: item3;
+}
+
+.coach__gallery-item--4 {
+    grid-area: item4;
+}
+
+.coach__gallery-item--5 {
+    grid-area: item5;
+}
+
+.coach__gallery-item--6 {
+    grid-area: item6;
+}
+
+.coach__gallery-item--7 {
+    grid-area: item7;
+}
+
+.coach__gallery-item--8 {
+    grid-area: item8;
+}
+
+.coach__gallery-img {
+    
+    border-radius: 20px;
+}
+
+
+@media (max-width: 1350px) { /* Для блока тренеров исправить*/
+
+    .coach {
+        padding: 30px 40px;
+    }
+
+    .coach__info {
+        margin: 0px 0px 50px;
+    }
+    
+    .coach__title {
+        font-size: 60px;
+    }
+
+    .coach__gallery-row--one {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4";
+        justify-items: center; 
+        align-items: center;
+    }
+
+    .coach__gallery-row--two {
+        display: grid;
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "item5 item6"
+        "item7 item8";
+        justify-items: center;    
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 600px) { /* Для блока тренеров исправить*/
+
+    .coach__gallery-row--one {
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4";
+    }
+
+    .coach__gallery-row--two {
+        grid-template-rows: auto auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        "item5"
+        "item6"
+        "item7"
+        "item8";
+    }
+
+    .coach__text {
+        text-align: left;
+    }
+
+    .coach__title {
+        font-size: 50px;
+    }
+
+}
+
+@media (max-width: 400px) { /* Для блока тренеров исправить*/
+
+   .coach__info {
+        height: auto;
+   }
+
+    .coach__text {
+       font-size: 15px;
+    }
+
+    .coach__title {
+        font-size: 30px;
+    }
+
+}

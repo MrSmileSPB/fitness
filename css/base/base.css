@@ -23,6 +23,7 @@ a {
     font-weight: 700;
     color: var(--accent);
     font-size: 96px;
+    letter-spacing: 7.5px;
 }
 
 .container {
