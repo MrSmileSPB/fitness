@@ -161,8 +161,8 @@
     }
 
     .coach__gallery-row--two {
-        grid-template-rows: auto auto;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 1fr;
         grid-template-areas: 
         "item5"
         "item6"

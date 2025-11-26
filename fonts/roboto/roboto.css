@@ -1,6 +1,6 @@
   @font-face {
-      font-family: 'Roboto'; /* Название шрифта, которое вы будете использовать */
-      src: url('/fonts/Roboto/Roboto-Black.ttf') format('truetype'), /* Путь к вашему файлу шрифта */
+      font-family: 'Roboto'; /* Название шрифта, которое мы будем использовать */
+      src: url('/fonts/Roboto/Roboto-Black.ttf') format('truetype'), /* Путь к нашему файлу шрифта */
            url('/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype'),
            url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype'),
            url('/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype'),
