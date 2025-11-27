@@ -1,9 +1,4 @@
 .beast {
-    /*background-image: url(../../img/beast/beast-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;*/
     position: relative;
     height: 750px;
     padding: 242px 135px;
@@ -30,7 +25,6 @@
     gap: 30px;
     position: relative;
     z-index: 2;
-    /*transform: skewY(5deg); /* компенсируем наклон контента */
 }
 
 .beast__title {
@@ -66,4 +60,29 @@
     letter-spacing: 5px;
     line-height: 1;
     color: #000000;
+}
+
+@media (max-width: 750px) {
+
+    .beast {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 135px;
+    }
+
+    .beast::before {
+        background-position: center top;
+    }
+
+    .beast__title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .beast {
+        padding: 135px 0;
+    }
 }
