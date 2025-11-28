@@ -110,7 +110,7 @@
 }
 
 
-@media (max-width: 1350px) { /* Для блока тренеров исправить*/
+@media (max-width: 1350px) { 
 
     .coach {
         padding: 30px 40px;
@@ -148,7 +148,15 @@
 
 }
 
-@media (max-width: 600px) { /* Для блока тренеров исправить*/
+@media (max-width: 600px) { 
+
+    .coach {
+        padding: 6.5rem 3rem;
+    }
+
+    .coach__info {
+        gap: 1rem;
+    }
 
     .coach__gallery-row--one {
         grid-template-rows: auto auto auto auto;
@@ -180,7 +188,7 @@
 
 }
 
-@media (max-width: 400px) { /* Для блока тренеров исправить*/
+@media (max-width: 400px) { 
 
    .coach__info {
         height: auto;
