@@ -42,18 +42,6 @@
     box-shadow: 0px 4px 7px 0px #0000001A;
 }
 
-.beast__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--accent);
-    border-radius: 7px;
-    max-width: 214px;
-    width: 100%;
-    min-height: 52px;
-    height: auto;
-}
-
 .beast__btn-link {
     font-family: var(--font-accent);
     font-size: 19px;
