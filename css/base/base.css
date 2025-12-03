@@ -32,3 +32,16 @@ a {
     max-width: 1200px;
     width: 100%;
 }
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--accent);
+    border-radius: 7px;
+    max-width: 214px;
+    width: 100%;
+    min-height: 52px;
+    height: auto;
+    color: black;
+}
