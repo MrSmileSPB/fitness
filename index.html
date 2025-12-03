@@ -151,7 +151,7 @@
                 Силовые и кардиотренировки высокой интенсивности помогут развить выносливость,
                 мощь и непоколебимую уверенность в себе.
             </p>
-            <div class="beast__btn">
+            <div class="button">
                 <a href="#" class="beast__btn-link">ЗАПИСАТЬСЯ</a>
             </div> 
         </div>
@@ -308,6 +308,9 @@
             </div>
             <div class="conracts__form-wrapper">
                 <form action="#" class="contacts__form">
+
+                <div class="contacts__form-item">
+                    <label for="name" class="contacts__form-label">Имя</label>
                     <input 
                         id="name" 
                         type="text" 
@@ -316,7 +319,10 @@
                         placeholder="Ваше имя" 
                         required
                     >
-                    <label for="name" class="contacts__form-label">Имя</label>
+                </div>
+
+                <div class="contacts__form-item">
+                    <label for="E-mail" class="contacts__form-label">E-mail</label>
                     <input 
                         id="E-mail" 
                         type="text"
@@ -325,22 +331,24 @@
                         placeholder="Ваш E-mail" 
                         required
                     >
-                    <label for="E-mail" class="contacts__form-label">E-mail</label>
-                    
+                </div>
+
+                <div class="contacts__form-item">
+                    <label for="message" class="contacts__form-label">Сообщение</label>
                     <textarea
                         name="usermessage" 
                         id="message" 
                         class="contacts__form-field" 
-                        placeholder="Ваше сообщение" 
+                        placeholder="Меня зовут User, и я заинтересован в ваших услугах." 
                         required
-                    >
+                    >                
                     </textarea>
-                    <label for="message" class="contacts__form-label">Меня зовут User, и я заинтересован в ваших услугах.</label>
-
+                </div>
+                                  
                     <button 
                         type="submit" 
                         id="contacts__submitbtn" 
-                        class="contacts__form-btn" 
+                        class="button" 
                         name="btnsubmit"
                     >
                         Отправить
