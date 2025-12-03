@@ -47,6 +47,7 @@
     font-weight: 300;
     font-size: 1rem;
     line-height: 1;
+    text-align: left;
 }
 
 .contacts__form-item textarea {
@@ -56,4 +57,56 @@
 
 .contacts__form-label {
     font-weight: 700;
+}
+
+@media (max-width: 1350px) { 
+
+    .contacts__title {
+        font-size: 3.8rem;
+    }
+
+}
+
+@media (max-width: 900px) { 
+
+    .contacts {
+        padding: 9.5rem 5rem;
+    }
+
+    .contacts__form {
+        width: 100%;
+    }
+
+    .contacts__content {
+        width: 100%;
+    }
+
+    .conracts__form-wrapper {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) { 
+
+    .contacts {
+        padding: 9.5rem 2rem;
+    }
+
+    .contacts__title {
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 400px) { 
+
+    .contacts {
+        padding: 9.5rem 1rem;
+    }
+
+    .contacts__title {
+        font-size: 2rem;
+    }
+
 }
