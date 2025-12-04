@@ -1,0 +1,40 @@
+.footer {
+    padding: 4.4rem 0 4.4rem 8.4rem;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer__icons-item {
+
+}
+
+.footer__item-link {
+
+}
+
+.footer__info {
+    display: flex;
+    gap: 3rem;
+}
+
+.footer__adress-wrapper, .footer__contacts-wrapper {
+    display: flex;
+}
+
+.footer__adress, .footer__contacts {
+    font-family: var(--font-base);
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.8;
+}
+
+
